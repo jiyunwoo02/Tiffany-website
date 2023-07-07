@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application form</title>
+
+  <style>
+    body{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    h3{
+      margin: 50px auto;
+      text-align: center;
+    }
+    p#app1,#app2,#app3,#app4{
+      font-size: 20px;
+      text-align: center;
+    }
+    p#app5,#app6,#app7{
+      font-size: 20px;
+    }
+    p>li{
+      text-align: justify;
+    }
+    table{
+      margin: auto;
+    }
+    .btn{
+        width:100px;
+        margin:auto;
+        display:block;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h3>How To Apply</h3>
+  <p id="app1">The Tiffany & Co. Foundation is committed to preserving the world’s most treasured seascapes and landscapes. Every year, the Foundation awards approximately USD $6 million in grants to organizations working within our two program areas: Coral Conservation and Responsible Mining.
+  </p>
+
+  <p id="app2">We are pleased to invite eligible organizations to apply for funding of programs that align with these program areas. To qualify for a grant, a prospective grantee must be a United States-based, tax-exempt organization with 501(c)(3) status, though work may take place globally.
+  </p>
+  <hr>
+
+  <h3>Application Table</h3>
+  <p id="app3">Interested organizations can submit a Letter of Inquiry to The Tiffany & Co. Foundation via our online application system.<br>
+  Due to the high volume of applications, please note that the Foundation does not accept Letters of Inquiry or grant applications that are submitted on paper or via email and it does not take meeting requests.
+  </p>
+
+  <table border="1">
+    
+    <tr>
+      <td>이름</td>
+      <td><input type="text" name="name" size="30"></td>
+    </tr>
+
+    <tr>
+      <td>전화번호</td>
+      <td>
+        <input type="text" name="Id" size="30">
+        <input type="button" value="본인 확인">
+      </td>
+    </tr>
+    
+    <tr>
+      <td>인증번호</td>
+      <td>
+        <input type="text" name="pw" size="30">
+        <input type="button" value="본인 인증">
+      </td>
+    </tr>
+  
+    <tr>
+      <td>성별</td>
+      <td>
+        <input type="radio" name="gender">남
+        <input type="radio" name="gender" checked="checked">여
+        <input type="radio" name="gender">그 외
+      </td>
+    </tr>
+  
+    <tr>
+      <td>암호</td>
+      <td><input type="password" name="password" size="30"></td>
+    </tr>
+  
+    <tr>
+      <td>암호 확인</td>
+      <td><input type="password" name="password" size="30"> *위와 동일한 암호를 입력하세요</td>
+    </tr>
+  
+    <tr>
+      <td>이메일</td>
+      <td>
+        <input type="email" name="email" size="30">
+  
+        <select name="email">
+        <option value="naver">naver.com</option>
+        <option value="daum">daum.net</option>
+        <option value="gmail">gmail.com</option>
+        <option value="nate">nate.com</option>
+        </select>
+  
+      </td>
+    </tr>
+  
+    <tr>
+      <td>주소</td>
+      <td>
+        <input type="text">
+        <input type="button" value="주소찾기">
+      </td>
+    </tr>
+  
+    <tr>
+      <td>휴대폰</td>
+      <td>
+        <input type="radio" name="phone" value="SKT">SKT
+        <input type="radio" name="phone" value="KT">KT
+        <input type="radio" name="phone" value="LGU">LGU
+  
+        <br>
+  
+        <select name="number">
+        <option value="010" checked="checked">010</option>  
+        <option value="011">011</option> 
+        </select>
+  
+        - <input type="text" size="5">
+        - <input type="text" size="5">
+      </td>
+    </tr>
+  
+  </table>
+  <br>
+  <input type="submit" class="btn" value="신청">
+
+  <hr>
+
+  <h3>Application and Grantmaking Process</h3>
+  <p id="app4">The Tiffany & Co. Foundation program staff reviews Letters of Inquiry submissions on a rolling basis and will notify applicants within three months of inquiry.<br>
+    
+
+  If the proposed project is accepted for grant consideration, the Foundation staff members will request additional information from the applicants, which may include a full proposal or a meeting with the principal organizers of the project.<br><br>
+
+  Following the review of a full proposal and associated due diligence, grants are awarded by The Tiffany & Co. Foundation board of directors.<br>
+
+  Please only inquire as to the status of your request if more than three months have passed since the submission of the Letter of Inquiry. While the Foundation does not accept declined proposals for re-evaluation, we welcome subsequent Letters of Inquiry.
+</p>
+<hr>
+
+<h3>Frequently Asked Questions</h3>
+<p id="app5"><b>i. What programs or activities does The Tiffany & Co. Foundation not fund?</b><br>
+<ul>
+  <li>Organizations that do not have tax-exempt status under Section 501(c)(3) of the Internal Revenue Code</li>
+  <li>Religious, political, lobbying, social or fraternal organizations</li>
+  <li>Organizations that discriminate or limit their membership, support or services based on race, color, sex, religion, citizenship status, age, disability or any other characteristic protected by law</li>
+  <li>Organizations seeking event fundraising sponsorship</li>
+  <li>Individuals, including those with a 501(c)(3) organization willing to accept funding on their behalf</li>
+</ul>
+</p>
+
+<br>
+<p id="app6"><b>ii. Does The Tiffany & Co. Foundation support lobbying?</b><br>
+  <ul>
+    <li>No, The Tiffany & Co. Foundation does not fund lobbying efforts.</li>
+  </ul>
+</p>
+
+<br>
+<p id="app7"><b>iii. Does The Tiffany & Co. Foundation provide any product donations for fundraisers?</b>
+  <ul>
+    <li>The Tiffany & Co. Foundation is a legal separate entity from Tiffany & Co. and therefore does not provide any product donations for fundraisers. <br>To contact a Tiffany & Co. Client Advisor for information about in-kind donations, please click <a href="#">here</a>.</li>
+  </ul>
+</p>
+
+<hr>
+</body>
+</html>

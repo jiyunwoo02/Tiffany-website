@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <style>
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #81d8d0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6498e2;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+small{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(109, 108, 108);
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form action="#" method="post">
+  
+      <label for="fname">Your Name</label>
+      <input type="text" id="name" name="yourname" placeholder="Your name..">
+
+      <label for="age">Your age</label>
+      <input type="text" id="age" name="yourage" placeholder="Your age..( 만 나이로 작성해주세요. )">
+
+      <label for="tel">Your Phone Number</label>
+      <input type="text" id="phone" name="yourphonenumber" placeholder="Your phone number.. ( - 없이 작성해주세요. )">
+  
+      <label for="lname">Your E-mail <Address></Address></label>
+      <input type="text" id="email" name="emailadd" placeholder="Your Email address..">
+  
+      <label for="reason">Why</label>
+      <select name="reason" id="reason">
+        <option value="complain">Complain</option>
+        <option value="suggestion">Suggestion</option>
+        <option value="question">Question</option>
+        <option value="consulting">Consulting</option>
+        <option value="etc">Etc</option>
+      </select>
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="korea">Korea</option>
+        <option value="Austria">Austria</option>
+        <option value="Belgium">Belgium</option>
+        <option value="Canada">Canada</option>
+        <option value="China">China</option>
+        <option value="Deutschland">Deutschland</option>
+        <option value="France">France</option>
+        <option value="India">India</option>
+        <option value="Ireland">Ireland</option>
+        <option value="Italia">Italia</option>
+        <option value="Japan">Japan</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Netherlands">Netherlands</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="USA">USA</option>
+      </select>
+  
+      <label for="comment">Comment</label>
+      <textarea id="comment" name="comment" placeholder="보내주시고 싶은 내용을 입력해주세요..." style="height:200px"></textarea>
+      
+      <br>
+      <input type="checkbox" checked>
+       의견이 보내질 때 문제점 확인 및 서비스 개발에 참조하기 위하여 해당 페이지의 시스템 정보가 같이 보내집니다. Submit 버튼을 누르면 개인정보 처리방침에 동의한 것으로 간주된다는 점에 유의해주세요.
+      <br><br>
+
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+  <br>
+  <small>Tiffany&amp;Prism 2022</small>
+  <small>&copy; 2022 KWANGWOON INTERACTIVE ALL RIGHTS RESERVED</small>
+</body>
+</html>
